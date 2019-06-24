@@ -1,0 +1,24 @@
+defSpanType term =: 
+... [ eqi('sector') eqi('cyhoeddus') ] ... ||
+... [ eqi('llywodraeth') eqi('cymru') ] ... ||
+... [ eqi('lywodraeth') eqi('cymru') ] ... ||
+... [ eqi('technolegau') eqi('digidol') ] ... ||
+... [ eqi('gofal') eqi('iechyd') ] ... ||
+... [ eqi('comisiwn') eqi('coedwigaeth') eqi('cymru') ] ... ||
+... [ eqi('chomisiwn') eqi('coedwigaeth') eqi('cymru') ] ... ||
+... [ eqi('swyddfa') eqi('ystadegau') eqi('gwladol') ] ... ||
+... [ eqi('chyngor') eqi('chefn') eqi('gwlad') eqi('cymru') ] ... ||
+... [ eqi('dystysgrif') eqi('feddygol') ] ... ||
+... [ eqi('tystysgrifau') eqi('meddygol') ] ... ||
+... [ eqi('amgylchedd') eqi('cymru') ] ... ||
+... [ eqi('gwasanaethau') eqi('cyhoeddus') ] ... ||
+... [ eqi('wasanaethau') eqi('cyhoeddus') ] ... ||
+... [ eqi('effaith') eqi('ar') eqi('bobl') ] ... ||
+... [ eqi('effaith') eqi('fawr') eqi('ar') eqi('bobl') ] ... ||
+... [ eqi('effeithiau') eqi('difrifol') eqi('ar') eqi('bobl') ] ... ||
+... [ eqi('sector') eqi('preifat') ] ... ||
+... [ eqi('gyngor') eqi('ar') eqi('bopeth') eqi('cymru') ] ... ||
+... [ eqi('swyddogaethau') eqi('asiantaeth') ] ... ||
+... [ eqi('comisiwn') eqi('coedwigaeth') ] ... ||
+... [ eqi('yng') eqi('nghymru') ] ... ;
+defSpanType token =term: ... [ any ] ... ;

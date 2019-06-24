@@ -1,0 +1,1 @@
+java -Xmx1000M -cp .;./lib/jsonapi-20120531.jar;./lib/sqlite-jdbc-3.5.9-universal.jar; FlexiTermCymraeg > tmp.txt

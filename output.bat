@@ -1,0 +1,1 @@
+java -Xmx1000M -cp .\lib\m3rd_20080611.jar edu.cmu.minorthird.ui.RunMixup -labels text -mixup output.mixup -showResult

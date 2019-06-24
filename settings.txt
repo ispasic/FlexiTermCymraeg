@@ -1,0 +1,10 @@
+pattern (NN( (NN|JJ))* IN NN( (NN|JJ))*)|(NN( (NN|JJ))+)
+stoplist stoplist.txt
+max 3
+min 2
+apiPOSTaggerAddress https://api.techiaith.org/pos/v1/?
+apiPOSTaggerKey 485fb2e4-1536-4afc-a0e3-65ca28faf398
+apiLemmatizerAddress https://api.techiaith.org/lemmatizer/v1/?
+apiLemmatizerKey fa3cf0ac-5d9f-4ce9-ae0d-cae9db2ad28d
+apiCysillOnlineAddress https://api.techiaith.org/cysill/v1/?
+apiCysillOnlineKey c358ccd2-68f2-464f-a37a-b8a0249aac11

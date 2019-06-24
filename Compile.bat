@@ -1,0 +1,1 @@
+javac -cp .;.\lib\jsonapi-20120531.jar;.\lib\sqlite-jdbc-3.5.9-universal.jar; FlexiTermCymraeg.java
